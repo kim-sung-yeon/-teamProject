@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="product.model.Composite">
+	<select id = "orderDetail" resultType="mall.cart.ShoppingInfo">
+
+		
+		select odid, oid, pnum, qty, name as pname, price , price*qty as amount
+		from orderdetails 
+		join products  on pnum = num and oid=#{oid}
+		order by odid desc
+		
+	</select>
+</mapper>
