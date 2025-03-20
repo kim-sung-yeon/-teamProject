@@ -31,6 +31,7 @@ public class ProductsDetailController {
 		mav.setViewName(getPage);
 		
 		return mav;
+		
 	}
-	
+  	  
 }
