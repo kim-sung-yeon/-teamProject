@@ -34,7 +34,9 @@ public class ProductInsertController {
 	@Autowired
 	ServletContext servletContext;
 	
-	
+	//kim 수정
+	//kim 한 줄 추가
+	//kim 한 줄 추가
 	private final String command = "insert.prd";
 	private String getPage = "productInsertForm";
 	private String gotoPage = "redirect:/list.prd";
