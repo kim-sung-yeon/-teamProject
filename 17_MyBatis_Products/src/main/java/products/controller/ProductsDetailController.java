@@ -31,7 +31,11 @@ public class ProductsDetailController {
 		mav.setViewName(getPage);
 		
 		return mav;
-		
+
+		//kim 팀원이 추가함
+		//kim 팀원이 추가함
+		//kim 팀원이 추가함
+
 	}
   	  
 }
